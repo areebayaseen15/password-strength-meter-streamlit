@@ -34,7 +34,7 @@ st.markdown(
         color: white !important;
         opacity: 1 !important;
     }
-    
+
     /* Style buttons */
     .stButton>button {
         background: linear-gradient(90deg, #ffcc00, #ff8800);
@@ -148,3 +148,14 @@ if st.button("📌 Save & Generate Password"):
             st.warning("⚠️ Strengthen your password before saving.")
     else:
         st.warning("⚠️ Please enter a password to save.")
+
+
+
+st.markdown(
+    """
+    <div style="text-align: center; margin-top: 20px; font-size: 16px; font-weight: bold;">
+        🚀 Created by <span style="color: #ffcc00;">Areeba Yaseen</span> | Powered by <img src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.svg" alt="Streamlit" width="100">
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
